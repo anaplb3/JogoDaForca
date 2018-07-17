@@ -68,16 +68,16 @@ def forca(lista, palavra, indice):
 			teste = boneco(erroDef, word)
 			if erroDef == 6:
 				break
-			else:
-				for ind, value in enumerate(word):
-					if value == chute:
-						lista[indice][ind] = palavra[indice][ind]
+		else:
+			for ind, value in enumerate(word):
+				if value == chute:
+					lista[indice][ind] = palavra[indice][ind]
 			
-			print("\n")
-			for i in lista[indice]:
-				print("",i, end="")
+		print("\n")
+		for i in lista[indice]:
+			print("",i, end="")
 			
-			print("\n")
+		print("\n")
 	print("Parabéns, você ganhou!")
 	print("\n")
 
