@@ -1,2 +1,2 @@
 # JogoDaForca
-Jogo da forca feito em Python
+Hangman game made in Python
